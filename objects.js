@@ -53,18 +53,19 @@ console.log(me)
 */
 
 //CODE HERE
-function carFactory(obj){
+function carFactory(make, model, year){
   let obj = {
   make: 'make',
   model: 'model',
   year: year
   } 
-  console.log([make, model, year])
+  console.log([`${make}, ${model}, ${year}`])
   
   if(year > 2018){
-    obj.isNew = true
+    console.log(obj["isNew"] = true)
+  
   } else {
-    obj.isNew = false
+    console.log(obj["isNew"] = false)
   }
   return obj
 }
