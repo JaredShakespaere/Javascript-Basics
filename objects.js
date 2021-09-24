@@ -19,10 +19,15 @@ let me = {
   firstName: 'Jared',
   state: 'Louisiana',
   age: 25,
-  greeter: `Hello! My name is Jared and I live in Louisiana`
+  greeter: function(){
+    
+    return `Hello! My name is ${me.firstName} and I live in ${me.state}`
+  }
+
 }
 
-console.log(me)
+console.log(me.greeter())
+
 
 
 
@@ -55,13 +60,12 @@ console.log(me)
 //CODE HERE
 function carFactory(make, model, year){
   let obj = {
-  make: 'make',
-  model: 'model',
+  make: make,
+  model: model,
   year: year
   } 
-  console.log([`${make}, ${model}, ${year}`])
   
-  if(year > 2018){
+  if(obj.year > 2018){
     console.log(obj["isNew"] = true)
   
   } else {
