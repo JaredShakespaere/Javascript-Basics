@@ -1,0 +1,18 @@
+
+function greeting(name){
+    console.log(`Hello, ${name}! What is your password?`)
+}
+greeting('')
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+function passwordValidator(attemptedPassword){
+    if(attemptedPassword.length >= 10){
+        console.log('Success!')
+    } else {
+        console.log('Failure to validate')
+    }
+    
+}

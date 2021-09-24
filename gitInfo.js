@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = 'it is a way to get our code onto the internet, keep track of changes and have others work on the same project'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = 'It is a place where i can create repos for my code to be pushed to to be accessed by the users of the internet'
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+let init = {
+    description: 'this initilizes a local repo',
+    code: 'git init'
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+let clone = {
+    description: 'copies a repo from github to access locally',
+    code: 'git clone REPO_URL'
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +56,10 @@
 */
 
 //CODE HERE
-
+let status = {
+    description: 'tells me where my code is at related to git. Lets you know if your local repo is ahead of your global repo',
+    code: 'git status'
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +67,10 @@
 */
 
 //CODE HERE
-
+let add = {
+    description: 'adds files to be tracked',
+    code: 'git add .'
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +78,11 @@
 */
 
 //CODE HERE
+let commit = {
+    description: 'makes a picture of files im tracking and gets them ready to be pushed',
+    code: 'git commit'
 
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +91,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: 'sends local repos to github',
+    code: 'git push'
+}
