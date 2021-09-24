@@ -64,6 +64,7 @@ function carFactory(make, model, year){
   model: model,
   year: year
   } 
+  console.log([`${make}, ${model}, ${year}`])
   
   if(obj.year > 2018){
     console.log(obj["isNew"] = true)

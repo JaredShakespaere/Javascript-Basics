@@ -18,7 +18,7 @@ let gitDefinition = 'it is a way to get our code onto the internet, keep track o
 */
 
 //CODE HERE
-let gitDefinition = 'It is a place where i can create repos for my code to be pushed to to be accessed by the users of the internet'
+let githubDefinition = 'It is a place where i can create repos for my code to be pushed to to be accessed by the users of the internet'
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
