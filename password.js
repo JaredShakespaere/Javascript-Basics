@@ -16,3 +16,7 @@ function passwordValidator(attemptedPassword){
     }
     
 }
+passwordValidator('')
+
+
+
